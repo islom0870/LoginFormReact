@@ -152,4 +152,5 @@ span {
 .bottom {
   width: 85%;
   text-align: center;
+  cursor: pointer;
 }

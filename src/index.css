@@ -24,8 +24,9 @@ body {
   min-height: 100vh;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  /* flex-direction: column; */
 }
 
 .card {
@@ -64,7 +65,7 @@ input {
 input:nth-of-type(1) {
   margin-bottom: 21px;
 }
-button {
+.card button {
   outline: none;
   width: 85%;
   height: 41px;
@@ -153,4 +154,52 @@ span {
   width: 85%;
   text-align: center;
   cursor: pointer;
+}
+
+/* second task */
+.secondTask {
+  background-color: #ffffff;
+  width: 301px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid rgb(158, 158, 158);
+}
+.plusMinus {
+  display: flex;
+  width: 151px;
+  border: 1px solid grey;
+}
+
+.mp {
+  color: #1486af;
+  font-size: 31px;
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.number {
+  color: #020a0c;
+  font-size: 21px;
+  width: 33.3%;
+  text-align: center;
+  vertical-align: middle;
+  /* display: flex; */
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mp.active,
+.mp.active1 {
+  background: lightgrey !important;
+  opacity: 0.5;
 }

@@ -28,7 +28,13 @@ body {
   align-items: center;
   /* flex-direction: column; */
 }
-
+@media (max-width: 1200px) {
+  .App {
+    padding: 31px;
+    flex-direction: column;
+    row-gap: 31px;
+  }
+}
 .card {
   width: 371px;
   height: 551px;

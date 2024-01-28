@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/LoginFormReact/static/css/main.e2852778.css",
+    "main.css": "/LoginFormReact/static/css/main.fae2b4aa.css",
     "main.js": "/LoginFormReact/static/js/main.37d88f1c.js",
     "index.html": "/LoginFormReact/index.html",
-    "main.e2852778.css.map": "/LoginFormReact/static/css/main.e2852778.css.map",
+    "main.fae2b4aa.css.map": "/LoginFormReact/static/css/main.fae2b4aa.css.map",
     "main.37d88f1c.js.map": "/LoginFormReact/static/js/main.37d88f1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2852778.css",
+    "static/css/main.fae2b4aa.css",
     "static/js/main.37d88f1c.js"
   ]
 }
